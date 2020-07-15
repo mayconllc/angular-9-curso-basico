@@ -15,7 +15,7 @@ export class ReadComponent implements OnInit {
   constructor(private service: ProductService) { }
 
   ngOnInit(): void {
-    this.service.read().subscribe(products => {
+    this.service.get().subscribe(products => {
       this.products = products;
     })
   }

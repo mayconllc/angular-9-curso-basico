@@ -29,6 +29,7 @@ import { ProductComponent } from './views/product/product.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CreateComponent } from './components/product/create/create.component';
 import { ReadComponent } from './components/product/read/read.component';
+import { UpdateComponent } from './components/product/update/update.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ReadComponent } from './components/product/read/read.component';
     HomeComponent,
     ProductComponent,
     CreateComponent,
-    ReadComponent
+    ReadComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,

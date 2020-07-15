@@ -1,16 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC preta",
-      "price": 1.99
-    },
-    {
-      "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 12000.89
-    },
-    {
       "id": 3,
       "name": "samsung s20+ Ultra",
       "price": "6000.99"
@@ -21,13 +11,13 @@
       "id": 4
     },
     {
-      "name": "Impressora HP",
-      "price": "420.00",
+      "name": "Kit Teclado e Mouse ",
+      "price": "99.01",
       "id": 5
     },
     {
-      "name": "Monitor DELL",
-      "price": "689.89",
+      "name": "Bicicleta BMX Super",
+      "price": "1549.50",
       "id": 6
     }
   ]

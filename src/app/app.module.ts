@@ -19,6 +19,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/template/header/header.component';
@@ -30,6 +31,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CreateComponent } from './components/product/create/create.component';
 import { ReadComponent } from './components/product/read/read.component';
 import { UpdateComponent } from './components/product/update/update.component';
+import { DialogComponent } from './components/product/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,8 @@ import { UpdateComponent } from './components/product/update/update.component';
     ProductComponent,
     CreateComponent,
     ReadComponent,
-    UpdateComponent
+    UpdateComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
@@ -60,6 +63,7 @@ import { UpdateComponent } from './components/product/update/update.component';
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
+    MatDialogModule,
 
     AppRoutingModule
   ],
@@ -69,6 +73,7 @@ import { UpdateComponent } from './components/product/update/update.component';
       useValue: 'pt-BR'
     }    
   ],
+  entryComponents: [DialogComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

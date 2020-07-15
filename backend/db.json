@@ -24,6 +24,11 @@
       "name": "Impressora HP",
       "price": "420.00",
       "id": 5
+    },
+    {
+      "name": "Monitor DELL",
+      "price": "789.89",
+      "id": 6
     }
   ]
 }

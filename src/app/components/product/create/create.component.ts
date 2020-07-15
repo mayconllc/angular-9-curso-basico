@@ -12,7 +12,7 @@ export class CreateComponent {
 
   product: Product = {
     name: '',
-    price: 0
+    price: null
   }
 
   constructor(private service: ProductService, private router: Router) { }

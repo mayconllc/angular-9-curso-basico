@@ -1,19 +1,29 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Caneta BIC preta",
-            "price": 1.99
-        },
-        {
-            "id": 2,
-            "name": "Notebook Mac Pro",
-            "price": 12000.89
-        },
-        {
-            "id": 3,
-            "name": "samsung s20+",
-            "price": 5000.99
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC preta",
+      "price": 1.99
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "samsung s20+",
+      "price": 5000.99
+    },
+    {
+      "name": "Celular Motorola G6 Plus",
+      "price": 978.99,
+      "id": 4
+    },
+    {
+      "name": "Impressora HP",
+      "price": "420.00",
+      "id": 5
+    }
+  ]
 }
